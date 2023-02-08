@@ -1,0 +1,44 @@
+<?php
+
+$html = '
+    
+    <form action="fichacadastro.php" method="get">
+
+    <div class="campo">
+        <label>Endereço de e-mail:</label>
+        <input type="text" name="email">
+    </div>
+    <div class="campo>
+        <label>Seu nome:</label>
+        input type="text" name="nome">
+    </div>
+    <div class="campo>
+        <label>Sua cidade:</label>
+        input type="text" name="email">
+    </div>    
+    <div class="campo>
+        <label>Seu telefone:</label>
+        input type="text" name="email">
+    </div>    
+
+    <div class="campo">
+    <span>Tenho interrese no(s) seguinte(s) curso(s)*</span>
+    <br>
+    <ul>
+        <li>input type="checkbox" name="1>Técnico em Agropecúaria Integrado ao Ensino Médio</input></li>
+        <li>input type="checkbox" name="2>Técnico em Agroecologia Integrado ao Ensino Médio</li>
+        <li>input type="checkbox" name="3>Técnico em Informática Integrado ao Ensino Médio</li>
+        <li>input type="checkbox" name="4>Técnico em Agropecúaria Integrado ao Ensino Médio</li>
+        <li>input type="checkbox" name="5>Técnico em Agrimensura Integrado ao Ensino Médio</li>
+        <li>input type="checkbox" name="6>Agronomia</li>
+        <li>input type="checkbox" name="7>Ciência da Computação</li>
+        <li>input type="checkbox" name="8>Licenciatura em Pedagogia</li>
+        <li>input type="checkbox" name="9>Licenciatura em Matemática</li>
+        <li>input type="checkbox" name="10>lincenciatura em física</li>
+        <li>input type="checkbox" name="11>Pós-Graduação em Agronomia: Sistemas Agricolas Regionais</li>
+        <li>input type="checkbox" name="12>Outros:<input type="text" name="outros"></li>        
+        </ul>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+';
